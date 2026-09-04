@@ -6,8 +6,8 @@
 Выход: один Excel-файл с двумя листами — "Чистые" и "Проблемные"
 
 Запуск:
-    python clean_requests.py заявки_сырые.xlsx
-    python clean_requests.py заявки_сырые.xlsx --out-dir result --out-name результат.xlsx
+    python clean_requests.py <входной_файл.xlsx>
+    python clean_requests.py <входной_файл.xlsx> --out-dir result --out-name результат.xlsx
 """
 
 import argparse
